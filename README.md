@@ -60,6 +60,38 @@ jupyter notebook BERT_Customer_Support_Classification.ipynb
 
 ---
 
+## 🎮 Interactive Demo
+
+After running the notebook, a **Gradio web interface** launches automatically for real-time testing.
+
+### **Using Gradio Demo:**
+
+**In Colab:**
+- Run the notebook through Section 18
+- Gradio interface appears inline with a public shareable link
+- Test messages instantly with live predictions
+
+**Standalone:**
+```python
+# After training the model in the notebook, run:
+# The Gradio demo code is in Section 18 of the notebook
+# Or extract it to run separately
+```
+
+**Demo Features:**
+- 🎯 Real-time classification (intent, urgency, sentiment, action)
+- 🎨 Color-coded routing decisions (green/orange/red)
+- 📊 Confidence scores for each prediction
+- 💻 JSON output for developers
+- 📝 Pre-loaded example messages
+
+**Test with messages like:**
+- `"What are your business hours?"` → Auto-resolve
+- `"WTF!!! You charged me twice!!"` → Escalate to human
+- `"hey i cant log into my acccount"` → Handles typos perfectly
+
+---
+
 ## 📊 Performance
 
 | Metric | Value |
